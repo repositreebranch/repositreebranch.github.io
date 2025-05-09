@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'IBM Plex Mono', monospace;
+  }
+  
+  ::selection {
+    background-color: rgba(128, 128, 128, 0.2);
+  }
+  
+  pre {
+    background: transparent !important;
+  }
+}
